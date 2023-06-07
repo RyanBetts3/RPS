@@ -1,11 +1,17 @@
 body {
-    background-color: #f4f4f4;
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+    color: white;
 }
 
 .choices i {
     margin: 20px;
     cursor: pointer;
-    color: #007bff;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.choices i:hover {
+    transform: scale(1.1);
 }
 
 #score, #result {
