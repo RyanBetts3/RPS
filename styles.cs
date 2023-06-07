@@ -2,10 +2,10 @@ body {
     background-color: #f4f4f4;
 }
 
-.choices img {
-    width: 100px;
+.choices i {
     margin: 20px;
     cursor: pointer;
+    color: #007bff;
 }
 
 #score, #result {
